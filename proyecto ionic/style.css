@@ -53,50 +53,49 @@ input[type="text"], input[type="password"] {
 
 /* Footer General */
 footer {
-    background-color: #34353d; /* Fondo gris oscuro */
-    color: white; /* Texto blanco */
-    padding: 20px 0; /* Espaciado superior e inferior */
+    background-color: #34353d; 
+    color: white; 
+    padding: 20px 0; 
 }
 
 /* Contenido del footer */
 .footerBottom {
-    text-align: center; /* Centra todo el contenido */
+    text-align: center; 
     padding: 20px;
 }
 
 /* Imágenes en el footer */
 .footerBottom .img, 
 .footerBottom .img-b {
-    max-width: 150px; /* Ancho máximo de las imágenes */
-    max-height: 80px; /* Altura máxima de las imágenes */
-    margin: 10px; /* Espaciado entre las imágenes */
-    display: inline-block; /* Permite alineación horizontal */
+    max-width: 150px; 
+    max-height: 80px; 
+    margin: 10px; 
+    display: inline-block; 
 }
 
 /* Texto adicional */
 .footerBottom p {
-    font-size: 14px; /* Tamaño de fuente del texto */
-    margin-top: 10px; /* Espaciado superior */
-    color: white; /* Texto en blanco */
-}
+    font-size: 14px; 
+    margin-top: 10px;
+    color: white;
 
 /* Estilo para "Designed" */
 .footerBottom .designer {
     opacity: 0.7;
-    text-transform: uppercase; /* Texto en mayúsculas */
-    letter-spacing: 1px; /* Espaciado entre letras */
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
     font-weight: 400;
-    margin: 0px 5px; /* Espaciado alrededor */
+    margin: 0px 5px; 
 }
 
 /* Responsividad: Ajuste para pantallas pequeñas */
 @media (max-width: 700px) {
     .footerBottom .img, 
     .footerBottom .img-b {
-        max-width: 100px; /* Tamaño reducido en pantallas pequeñas */
+        max-width: 100px; 
         max-height: 60px;
     }
     .footerBottom p {
-        font-size: 12px; /* Tamaño reducido del texto */
+        font-size: 12px; 
     }
 }
